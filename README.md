@@ -66,6 +66,8 @@
 <p>Because this shell can't distinguish that which web server you had installed and which configuration you had set, I originally have a plan to provide caddy's one-key installation and apply https certificate at the begging. But I found that there are so many different web servers and various configurations, according to cause less consequence to your normal production environment or do not disturb your formal configuration. I'm sorry to explain and hope you to config Nginx listen to somewhere redirected by ShadowSocksR for example manually.</p>
 <p>My aims to write this shell is to set up ShadowSocksR's config and as far as possible to reduce any accident(regardless of profits or consequence) influence to your execute environment with many important componets.</p>
 <br />
+<p>在 Issues：https://github.com/leitbogioro/SSR.Go/issues/28 中，用户：[jzh20042003](https://github.com/jzh20042003) 提到在 CentOS 系统下无法正常安装 qrcode 组件，用户：[TakanashiYune](https://github.com/TakanashiYune) 给出了解决方案，我把该方案应用于组件安装的脚本中。</p>
+<p>In Issues：https://github.com/leitbogioro/SSR.Go/issues/28 , User: [jzh20042003](https://github.com/jzh20042003) mentioned that 'qrcode' component can't be installed in CentOS correctly, User: [TakanashiYune](https://github.com/TakanashiYune) told the right way, I merged them into the installation scripts.</p>
 
 <h2><a id="Sample">使用示例（Sample）</a></h2>
 
