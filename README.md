@@ -104,7 +104,7 @@
 <h2><a id="Updates">更新日志（Updates）：</a></h2>
 <ul>
 <li>在 Issues：https://github.com/leitbogioro/SSR.Go/issues/28 中，用户：<a href="https://github.com/jzh20042003">jzh20042003</a>提到在 CentOS 系统下无法正常安装 qrcode 组件，用户：<a href="https://github.com/TakanashiYune">TakanashiYune</a>给出了解决方案，我把该方案应用于组件安装的脚本中。（2021.3.12）</li>
-<p>In Issues：https://github.com/leitbogioro/SSR.Go/issues/28 , User: <a href="https://github.com/jzh20042003">jzh20042003</a> mentioned that 'qrcode' component can't be installed in CentOS correctly, User: href="https://github.com/TakanashiYune">TakanashiYune</a> told the right way, I merged them into the installation scripts.(2021.3.12)</p>
+<p>In Issues：https://github.com/leitbogioro/SSR.Go/issues/28 , User: <a href="https://github.com/jzh20042003">jzh20042003</a> mentioned that 'qrcode' component can't be installed in CentOS correctly, User: <a href="https://github.com/TakanashiYune">TakanashiYune</a> told the right way, I merged them into the installation scripts.(2021.3.12)</p>
 <li>更新 libsodium 组件至 1.0.18。（2020.7.1）</li>
 <p>Update libsodium componet to 1.0.18.(2020.7.1)</p>
 <li>检测是否已有配置文件，有则在升级前备份，并在升级后恢复，以防程序升级后原有配置被重写造成错乱。(2019.11.7)</li>
