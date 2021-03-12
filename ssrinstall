@@ -86,13 +86,15 @@ py_qrcode(){
 #安装依赖
 if [[ ${OS} == 'CentOS' ]] && [[ ${CentOS_Version} -eq "7" ]]; then
     yum update -y
-    yum install epel-release wget curl vixie-cron crontabs unzip git ntp ntpdate lrzsz -y
+    yum install epel-release wget curl vixie-cron crontabs unzip git ntp ntpdate lrzsz python-pip -y
     install_python_for_CentOS7
+    pip install --upgrade pip
     py_qrcode
 elif [[ ${OS} == 'CentOS' ]] && [[ ${CentOS_Version} -eq "6" ]]; then
     yum update -y
-    yum install epel-release wget curl vixie-cron crontabs unzip git ntp ntpdate lrzsz -y
+    yum install epel-release wget curl vixie-cron crontabs unzip git ntp ntpdate lrzsz python-pip -y
     install_python_for_CentOS6
+    pip install --upgrade pip
     py_qrcode
 elif [[ ${OS} == 'CentOS' ]] && [[ ${CentOS_Version} -le "5" ]]; then
     echo "您的系统版本是（${System_CentOS} ${CentOS_Version}），此系统不受支持，SSR.Go 安装程序即将退出！"
